@@ -1,6 +1,8 @@
 name: My First Workflow
 
-on: push
+on:
+  pull_request:
+    branches: [ main ] 
 
 jobs:
   say-hello:
