@@ -4,7 +4,7 @@ on: push
 
 jobs:
   say-hello:
-    runs-on: macos-alpine
+    runs-on: ubuntu-latest
 
     steps:
       - name: Print message
