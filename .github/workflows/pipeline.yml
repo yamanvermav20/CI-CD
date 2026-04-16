@@ -10,4 +10,11 @@ jobs:
       - name: Print message
         run: echo "Hello, GitHub Actions!"
       - name: Print bye
-        run: echo "bye gthub action"
+        run: echo "bye GitHub Actions!"
+
+  say-hello2:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print 2nd message
+        run: echo "This is Second Message Hii!!"
