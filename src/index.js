@@ -1,2 +1,12 @@
-console.log("This is index file");
-console.log("This is index file 2");
+import express from 'express';
+
+const app = express();
+
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+});
+
+app.listen(3000, () => {
+  console.log('Server is running on port 3000: http://localhost:3000');
+}); 
+server.js
