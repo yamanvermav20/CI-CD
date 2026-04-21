@@ -19,6 +19,9 @@ jobs:
       - name: installing node
         run: npm install
 
+      - name: final check
+        run: ls
+
       - name: Run test
         run: npm test
       
